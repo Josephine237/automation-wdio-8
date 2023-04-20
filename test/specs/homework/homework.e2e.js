@@ -1,9 +1,7 @@
 describe('Homework', async () => {
-
-    it('should open page and create screenshot', async () => {
-
-        // sem vypracuj domácí úkol
-
-    });
-
+  it('should open page and create screenshot', async () => {
+    await browser.reloadSession();
+    await browser.url('/registrace');
+    await browser.saveScreenshot('screenshots/registrance.png');
+  });
 });
