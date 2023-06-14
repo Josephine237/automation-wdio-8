@@ -22,7 +22,7 @@ export const config = {
   capabilities: [
     {
       maxInstances: 5,
-      browserName: 'chrome',
+      browserName: 'firefox',
       acceptInsecureCerts: true,
       'goog:chromeOptions': {
         args: [
